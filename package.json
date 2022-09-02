@@ -1,0 +1,26 @@
+{
+  "name": "cloud-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Edward-Regalado/cloude-server.git"
+  },
+  "author": "Tony Regalado",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Edward-Regalado/cloude-server/issues"
+  },
+  "homepage": "https://github.com/Edward-Regalado/cloude-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
